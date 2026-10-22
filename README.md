@@ -2,7 +2,7 @@
 
 **End-to-end MLOps system for 12-class speech keyword classification** — from reproducible pipeline and experiment tracking to a quantized ONNX model served via a Dockerized FastAPI service, deployed on Render with Prometheus/Grafana monitoring and GitHub Actions CI.
 
-[![CI](https://github.com/MeetSakhiya234/audio-classification-mlops/actions/workflows/ci.yml/badge.svg)](https://github.com/MeetSakhiya234/audio-classification-mlops/actions)
+[![CI](https://github.com/ChironRawal/audio_classification_mlops/actions/workflows/ci.yml/badge.svg)](https://github.com/ChironRawal/audio_classification_mlops/actions)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-INT8-informational)
 ![Docker](https://img.shields.io/badge/Docker-ready-2496ED)
@@ -57,13 +57,13 @@ Speech Commands ─► Preprocessing ─► Wav2Vec2 ─► Evaluation
 
 ## Screenshots
 
-| MLflow runs | Model Registry run | Grafana dashboard |
+| MLflow runs | Model Registry | ZenML pipeline run |
 |---|---|---|
-| ![](docs/images/mlflow-runs.png) | ![](docs/images/mlflow-registry.png) | ![](docs/images/grafana.png) |
+| ![MLflow runs](docs/images/mlflow-runs.jpeg) | ![MLflow registry](docs/images/mlflow-registry.jpeg) | ![ZenML run](docs/images/zenml.jpeg) |
 
-| Prometheus target (UP) | Render deployment |
-|---|---|
-| ![](docs/images/prometheus-targets.png) | ![](docs/images/render-live.png) |
+| Grafana dashboard | Prometheus target (UP) | Render deployment |
+|---|---|---|
+| ![Grafana](docs/images/grafana.jpeg) | ![Prometheus](docs/images/prometheus-targets.jpeg) | ![Render](docs/images/render-live.jpeg) |
 
 ## API example
 
@@ -77,8 +77,8 @@ Supports `.wav`, `.mp3`, `.flac`. Interactive docs at `/docs`.
 ## Run locally
 
 ```bash
-git clone https://github.com/MeetSakhiya234/audio-classification-mlops.git
-cd audio-classification-mlops
+git clone https://github.com/ChironRawal/audio_classification_mlops.git
+cd audio_classification_mlops
 git lfs pull                      # fetches the ~117 MB ONNX model
 
 # API + Prometheus + Grafana
