@@ -127,4 +127,4 @@ monitoring/     Prometheus config + Grafana dashboard/provisioning
 
 ## Author
 
-**Meet Sakhiya** — [LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE) · [GitHub](https://github.com/MeetSakhiya234)
+**Chiron Rawal** — [LinkedIn](https://www.linkedin.com/in/chiron-rawal-34b2aa345/) · [GitHub](https://github.com/ChironRawal)
